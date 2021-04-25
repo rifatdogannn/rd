@@ -1,0 +1,77 @@
+        div.genel {
+        width: 1500px;
+        height: 1000px;
+       
+        background-color:lightgray;
+        
+        }
+        .kenar {
+              border-left-style: groove;
+              border-width: 5px;
+              border-color: black;
+           }
+
+       
+        div.baslik{
+            width: 1000px;
+            font-size: 70px;
+            font-family: 'Indie Flower', cursive;
+            color: green;
+            position: absolute; left: 80px; top: 10px;    
+        }   
+        .menu{
+            
+            margin: 20px 10px;
+            position: absolute; left: 535px; top: 10px;
+            
+            }
+            .menu li{
+               list-style-type: none;
+                float: left;
+                 width: 220px;
+               
+                
+                
+            }
+
+            .menu li a{
+                background-color: green;
+                color: black;
+                display: block;
+                padding: 10px 20px;
+                text-decoration: none;
+            }
+
+
+            .menu li a:hover{
+                background-color: red;
+                
+            }
+            div.resim{
+
+                position: absolute; left: 300px; top: 120px;
+                color: green;
+                font-family: 'New Tegomin', serif;
+                
+
+            }
+             div.tarihce {
+                    width: 1550px;
+                    height: 3150px;
+
+                    background-color:lightgray;
+            }
+
+             div.yemek {
+                    width: 1500px;
+                    height: 2500px;
+
+                    background-color:lightgray;
+            }
+
+              div.yapit {
+                    width: 1550px;
+                    height: 2500px;
+
+                    background-color:lightgray;
+            }
